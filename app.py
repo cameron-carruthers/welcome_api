@@ -3,15 +3,15 @@ import requests
 import os
 import json
 
-application = Flask(__name__)
+app = Flask(__name__)
 
 
-@application.route('/', methods=['GET'])
+@app.route('/', methods=['GET'])
 def greet():
     return ('You have reached the Welcome API.  Please navigate to other endpoints to retrieve data')
 
 
-@application.route('/houses', methods=['GET'])
+@app.route('/houses', methods=['GET'])
 def get_houses():
     API_KEY = os.getenv('API_KEY')
     headers = {'x-rapidapi-key': API_KEY,
@@ -22,7 +22,7 @@ def get_houses():
     return (houses.content)
 
 
-@application.route('/house', methods=['GET'])
+@app.route('/house', methods=['GET'])
 def get_house():
     API_KEY = os.getenv('API_KEY')
     headers = {'x-rapidapi-key': API_KEY,
@@ -34,4 +34,4 @@ def get_house():
 
 
 if __name__ == '__main__':
-    application.run(debug=True)
+    app.run(debug=True)

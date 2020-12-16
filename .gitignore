@@ -1,4 +1,7 @@
 .env
+__pycache__
+.vscode
+.DS_Store
 # Elastic Beanstalk Files
 .elasticbeanstalk/*
 !.elasticbeanstalk/*.cfg.yml
