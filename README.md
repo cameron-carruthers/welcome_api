@@ -2,7 +2,7 @@
 
 > WelcomeHome is a real estate app for those looking for their next home
 
-This REST API is consumed by the React Native app here: https://github.com/cameron-carruthers/welcome-home
+This REST API is consumed by the mobile app here: https://github.com/cameron-carruthers/welcome-home
 
 ## Published App on Expo.io
 
