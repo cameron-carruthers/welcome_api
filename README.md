@@ -33,12 +33,12 @@ To run this repo, you will need to install dependencies and run appropriate scri
 
 ## Development
 
-Executing the code below will install Expo globally, install dependencies, and start the Expo development server.
+Executing the code below will install pip3, start a virtual environment, install dependencies, and start the development server.
 
 ```
-npm install --global expo-cli
-npm install
-expo start
-scan QR code that appears in the browser
+pip3 install pipenv
+pipenv shell
+pipenv install -r requirements.txt
+python app.py
 
 ```
