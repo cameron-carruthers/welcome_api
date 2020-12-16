@@ -6,6 +6,11 @@ import json
 application = Flask(__name__)
 
 
+@application.route('/', methods=['GET'])
+def greet():
+    return ('You have reached the Welcome API.  Please navigate to other endpoints to retrieve data')
+
+
 @application.route('/houses', methods=['GET'])
 def get_houses():
     API_KEY = os.getenv('API_KEY')
