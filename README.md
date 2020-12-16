@@ -14,30 +14,10 @@ https://expo.io/@clcarruthers/projects/welcomeHome
 
 When looking for houses, I wanted a real estate app with a better user experience
 
-## Features
-
-### Submit practice
-
-![Submit Practice gif](https://github.com/cameron-carruthers/practice-tracker/blob/master/submit-practice-form.gif
-)
-
-### View and purchase pets
-
-![Buy Pets Practice gif](https://github.com/cameron-carruthers/practice-tracker/blob/master/buy-pets.gif
-)
-
-### View the pets each student has purchased
-
-![View Pets gif](https://github.com/cameron-carruthers/practice-tracker/blob/master/view-pets.gif
-)
-
 ## Technologies Used
 
-- Figma (for Mockups)
-- React Native
-- Expo
-- Python (for REST API - separate repo linked above)
-- Flask (for REST API - separate repo linked above)
+- Python
+- Flask
 - Realtor API
 - Heroku
 
