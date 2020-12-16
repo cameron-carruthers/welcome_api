@@ -29,7 +29,7 @@ To run this repo, you will need to install dependencies and run appropriate scri
 
 - Python3
 - Get a free API key for the Realtor API here: https://rapidapi.com/apidojo/api/realtor?utm_source=google&utm_medium=cpc&utm_campaign=Alpha&utm_term=realtor%20api_e&gclid=Cj0KCQiA2uH-BRCCARIsAEeef3n6WXwwVVVHPevlB-d0edu5XqITvr-GRBPSgv3YERGr8DPedhfu0qkaAkj7EALw_wcB
-- Create a .env with the following code: APIKEY=<put-api-key-here>
+- Create a .env with the following code: APIKEY=whateverkeyyoujustreceived
 
 ## Development
 
